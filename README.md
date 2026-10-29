@@ -69,4 +69,4 @@ SNS email subscription was pending, not confirmed, until manually resending the 
 vCPU limit on a fresh AWS account blocked launching all 3 instances in a single batch; had to launch 2, then 1 more.
 
 Cleanup
-Terminate EC2 instances, delete the SNS topic and log group after testing to avoid ongoing charges. (IAM role can be left — no cost, reusable for future builds.)
+Terminate EC2 instances, delete the SNS topic and log group after testing to avoid ongoing charges. (IAM role can be left — no cost, reusable for future builds).
